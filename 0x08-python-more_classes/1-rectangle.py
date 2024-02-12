@@ -11,8 +11,8 @@ class Rectangle:
                width (int): shortest side of rectangle
                height (int): longest side of rectangle
         """
-        self.__width = width
-        self.__height = height
+        self.width = width
+        self.height = height
 
     @property
     def width(self):
