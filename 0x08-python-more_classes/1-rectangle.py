@@ -2,7 +2,7 @@
 """Rectangle module"""
 
 
-class Reictangle:
+class Rectangle:
     """Empty Class"""
 
     def __init__(self, width=0, height=0):
@@ -11,7 +11,6 @@ class Reictangle:
                width (int): shortest side of rectangle
                height (int): longest side of rectangle
         """
-
         self.__width = width
         self.__height = height
 
