@@ -5,6 +5,7 @@
 def is_same_class(obj, a_class):
     """obj is the instance being checked"""
     if type(obj) == a_class:
+        """function that checks"""
         return True
     else:
         return False
