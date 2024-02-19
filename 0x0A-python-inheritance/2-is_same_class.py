@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""checks instance of a specified class"""
+"""Defines a class-checking function."""
 
 
 def is_same_class(obj, a_class):
