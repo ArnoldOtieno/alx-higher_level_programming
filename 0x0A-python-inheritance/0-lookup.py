@@ -4,5 +4,4 @@
 def lookup(obj):
     """store is the variable that stores the variables and methods of obj"""
 
-    store = list(dir(obj))
-    return (store)
+    return (list(dir(obj)))
