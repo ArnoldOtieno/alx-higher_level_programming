@@ -1,16 +1,13 @@
 #!/usr/bin/node
 
-let x = process.argv[2];
+const count = process.argv[2];
+const verify = parseInt(count);
+const x = 'x';
 
-x = parseInt(x);
-if (isNaN(x)) {
+if (isNaN(verify)) {
   console.log('Missing size');
 } else {
-  for (let i = 0; i < x; i++) {
-    let store = '';
-    for (let j = 0; j < x; j++) {
-      store += 'x';
-    }
-    console.log(store + '\n');
+  for (let i = 0; i < verify; i++) {
+    console.log(x.repeat(verify));
   }
 }
