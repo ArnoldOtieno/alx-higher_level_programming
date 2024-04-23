@@ -8,3 +8,4 @@ if (argslength === 2) {
   console.log('Argument Found');
 } else {
   console.log('Arguments found');
+}
