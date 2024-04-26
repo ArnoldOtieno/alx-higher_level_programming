@@ -11,7 +11,8 @@ if __name__ == "__main__":
     """connsecting to the database and execting commands"""
 
     """connecting to database"""
-    db = MySQLdb.connect(host='localhost',port=3306,user=username,passwd=password,db=database)
+    db = MySQLdb.connect(host='localhost', port=3306,
+                         user=username, passwd=password, db=database)
     cur = db.cursor()
 
     cur.execute("SELECT * FROM states ORDER BY id ASC")
@@ -20,4 +21,3 @@ if __name__ == "__main__":
         print(row)
 
     db.close()
-
