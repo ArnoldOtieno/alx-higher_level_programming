@@ -13,7 +13,7 @@ if __name__ == "__main__":
     """Connecting to the database"""
     db = MySQLdb.connect(host='localhost', port=3306,
                          passwd=password, db=database, user=username)
-    """connecting cursor"""
+
     cur = db.cursor()
 
     cur.execute("SELECT * FROM states WHERE name = '{}'"
