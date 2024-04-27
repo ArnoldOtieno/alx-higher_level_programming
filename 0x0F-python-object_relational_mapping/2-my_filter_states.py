@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-
+"""search for a specific name"""
 import sys
 import MySQLdb
+
 
 if __name__ == "__main__":
     username = sys.argv[1]
