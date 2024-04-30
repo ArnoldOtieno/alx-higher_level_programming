@@ -11,7 +11,7 @@ if __name__ == "__main__":
                            .format(sys.argv[1], sys.argv[2], sys.argv[3]),
                            pool_pre_ping=True)
     Session = sessionmaker(bind=engine)
-    session = Session()i
+    session = Session()
     for state in session.query(State):
         if state is not None:
             if "a" in state.name:
