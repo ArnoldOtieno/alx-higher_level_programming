@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 """Ascript that deletes objects from database"""
+import sys
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from model_state import State
-import sys
 
 if __name__ == "__main__":
     """Creating database engine"""
