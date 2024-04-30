@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """creating a class and objects"""
-from sqlalchemy import Column, String, Integer, MetaData
+from sqlalchemy import Column, String, Integer, MetaData, ForeignKey
 from model_state import Base
 
 mymetadata = MetaData()
