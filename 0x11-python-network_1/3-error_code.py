@@ -11,5 +11,4 @@ if __name__ == "__main__":
         with urllib.request.Request(url) as responce:
             print(responce.read().decode("utf-8"))
     except urllib.error.HTTPError as e:
-        if hasattr(e, "code"):
-            print("Error code: {}".format(e.code))
+        print("Error code: {}".format(e.code))
